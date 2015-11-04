@@ -24,4 +24,9 @@
         android:title="@string/pref_title_vibrate"
         android:defaultValue="true" />
 
+    <SwitchPreference
+        android:key="notifications_new_message_sms_blocker"
+        android:title="@string/sms_blocker"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
